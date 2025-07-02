@@ -1,0 +1,145 @@
+{
+    "reports": [
+        {
+            "id": "report-1",
+            "date": "2024-01-15",
+            "patientName": "John Doe",
+            "results": [
+                {
+                    "parameter": "Hemoglobin",
+                    "value": "13.5",
+                    "unit": "g/dL",
+                    "range": {
+                        "low": 12.0,
+                        "high": 16.0
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "White Blood Cell Count",
+                    "value": "8500",
+                    "unit": "cells/μL",
+                    "range": {
+                        "low": 4000,
+                        "high": 11000
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "Glucose",
+                    "value": "95",
+                    "unit": "mg/dL",
+                    "range": {
+                        "low": 70,
+                        "high": 100
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "Cholesterol",
+                    "value": "220",
+                    "unit": "mg/dL",
+                    "range": {
+                        "low": 0,
+                        "high": 200
+                    },
+                    "status": "High"
+                }
+            ]
+        },
+        {
+            "id": "report-2",
+            "date": "2024-02-20",
+            "patientName": "John Doe",
+            "results": [
+                {
+                    "parameter": "Hemoglobin",
+                    "value": "14.2",
+                    "unit": "g/dL",
+                    "range": {
+                        "low": 12.0,
+                        "high": 16.0
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "White Blood Cell Count",
+                    "value": "7800",
+                    "unit": "cells/μL",
+                    "range": {
+                        "low": 4000,
+                        "high": 11000
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "Glucose",
+                    "value": "88",
+                    "unit": "mg/dL",
+                    "range": {
+                        "low": 70,
+                        "high": 100
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "Cholesterol",
+                    "value": "195",
+                    "unit": "mg/dL",
+                    "range": {
+                        "low": 0,
+                        "high": 200
+                    },
+                    "status": "Normal"
+                }
+            ]
+        },
+        {
+            "id": "report-3",
+            "date": "2024-03-18",
+            "patientName": "John Doe",
+            "results": [
+                {
+                    "parameter": "Hemoglobin",
+                    "value": "13.8",
+                    "unit": "g/dL",
+                    "range": {
+                        "low": 12.0,
+                        "high": 16.0
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "White Blood Cell Count",
+                    "value": "9200",
+                    "unit": "cells/μL",
+                    "range": {
+                        "low": 4000,
+                        "high": 11000
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "Glucose",
+                    "value": "92",
+                    "unit": "mg/dL",
+                    "range": {
+                        "low": 70,
+                        "high": 100
+                    },
+                    "status": "Normal"
+                },
+                {
+                    "parameter": "Cholesterol",
+                    "value": "185",
+                    "unit": "mg/dL",
+                    "range": {
+                        "low": 0,
+                        "high": 200
+                    },
+                    "status": "Normal"
+                }
+            ]
+        }
+    ]
+}
