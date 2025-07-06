@@ -1,5 +1,7 @@
 # Lab Report Extractor
 
+# Lab Report Extractor
+
 A production-ready web application that extracts health parameters from lab reports using OCR technology and AI-powered analysis. Upload PDF or image files and instantly see extracted health parameters in an interactive table with trend analysis and intelligent health insights.
 
 ## Features
@@ -46,26 +48,32 @@ A production-ready web application that extracts health parameters from lab repo
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd lab-report-app
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. **Set up Gemini API (Recommended)**:
+
    - Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
    - Create `.env.local` file in the project root:
+
    ```bash
    GEMINI_API_KEY=your_actual_api_key_here
    ```
+
    - See `env-setup.md` for detailed setup instructions
    - Without API key, the app will use basic pattern matching
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -74,12 +82,14 @@ npm run dev
 
 ## Usage
 
-1. **Upload a Lab Report**: 
+1. **Upload a Lab Report**:
+
    - Drag and drop a PDF or image file onto the upload area
    - Or click "Choose File" to browse and select a file
    - Supported formats: PDF, PNG, JPEG, GIF, BMP (max 10MB)
 
 2. **View Results**:
+
    - Extracted parameters appear in an interactive table
    - Parameters outside normal ranges are highlighted
    - Analysis method indicator shows "AI Enhanced" or "Basic Pattern Matching"
@@ -119,11 +129,13 @@ lab-report-app/
 Processes uploaded lab report files and extracts health parameters.
 
 **Request:**
+
 - Method: POST
 - Content-Type: multipart/form-data
 - Body: file (PDF or image)
 
 **Response:**
+
 ```json
 {
   "message": "Successfully extracted X lab parameters",
@@ -161,6 +173,7 @@ The application can recognize and parse the following parameters:
 ## Normal Reference Ranges
 
 Reference ranges are built-in for common parameters:
+
 - Hemoglobin: 12.0-16.0 g/dL
 - WBC: 4,000-11,000 cells/μL
 - Glucose: 70-100 mg/dL
@@ -215,4 +228,4 @@ This project is licensed under the MIT License.
 
 ## Support
 
-For issues and questions, please create an issue in the repository. 
+For issues and questions, please create an issue in the repository.
